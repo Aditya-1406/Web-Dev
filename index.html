@@ -1,36 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Calculator</title>
 </head>
+
 <body>
-   <main class="obody">
-    <input type="text" id="screen" placeholder="Enter value" readonly>
-    <div class="down">
-        <button class="btn">C</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button class="btn">0</button>
-        <button class="btn">*</button>
-        <button class="btn">+</button>
-        <button class="btn">-</button>
-        <button class="btn">/</button>
-        <button class="btn">back</button>
-    </div>
-   </main>
-    
-   <script src="script.js">
-    
-   </script>
+    <main class="obody">
+        <input type="text" id="screen" placeholder="Enter value" readonly>
+
+        <div class="down">
+
+            <button class="btn" onclick="
+            output  = '';
+            screen.value = output;
+            ">C</button>
+
+            <button class="btn" onclick="
+            output  += '1';
+            screen.value = output;
+            ">1</button>
+
+            <button class="btn" onclick="
+            output  += '2' ;
+            screen.value = output;
+            ">2</button>
+
+            <button class="btn" onclick="
+            output  += '3' ;
+            screen.value = output;
+            ">3</button>
+
+            <button class="btn" onclick="
+            output  += '4' ;
+            screen.value = output;
+            ">4</button>
+
+            <button class="btn" onclick="
+            output  += '5' ;
+           screen.value = output;
+            ">5</button>
+
+            <button class="btn" onclick="
+            output  += '6' ;
+           screen.value = output;
+            ">6</button>
+
+            <button class="btn" onclick="
+            output  += '7' ;
+           screen.value = output;
+            ">7</button>
+
+            <button class="btn" onclick="
+            output  += '8' ;
+           screen.value = output;
+            ">8</button>
+
+            <button class="btn" onclick="
+            output  += '9' ;
+           screen.value = output;
+            ">9</button>
+
+            <button class="btn" onclick="
+            output  += '0' ;
+           screen.value = output;
+            ">0</button>
+
+            <button class="btn" onclick="
+            output  += '*' ;
+           screen.value = output;
+            ">*</button>
+
+            <button class="btn" onclick="
+            output  += '+' ;
+           screen.value = output;
+            ">+</button>
+
+            <button class="btn"onclick="
+            output  += '-' ;
+           screen.value = output;
+            ">-</button>
+
+            <button class="btn" onclick="
+            output  += '/' ;
+           screen.value = output;
+            ">/</button>
+
+            <button class="btn" onclick="
+            output  = eval(output) ;
+           screen.value = output;
+            ">=</button>
+        </div>
+    </main>
+
+    <script src="script.js">
+
+    </script>
 </body>
+
 </html>

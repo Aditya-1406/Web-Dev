@@ -1,2 +1,3 @@
 let output = "";
-document.querySelector('#screen').value = output;
+let screen = document.querySelector('#screen');
+screen.value = output;
