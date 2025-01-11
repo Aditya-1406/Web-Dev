@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+} */
+.obody{
+    border: 2px solid black;
+    width: 19vw;
+    height: 32vh;
+    position: absolute;
+    left: 20%;
+    top: 15%;
+    border-radius: 8%;
+    background-color: rgb(172, 168, 167);
+}
+#screen{
+    margin: 11px;
+    padding: 5px;
+    height: 4vh;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 6%;
+    text-align: right;
+    font-size: 30px;
+}
+.btn{
+    font-size: 30px;
+    width: 20%;
+    border-radius: 10%;
+    margin: 5px;
+}
+.down{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
