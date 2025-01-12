@@ -9,8 +9,74 @@
 <body>
     <h1>Rock Paper Scissor</h1>
 
-    <button class="btn">Rock</button>
-    <button class="btn">paper</button>
-    <button class="btn">scissor</button>
+    <button class="btn" onclick="
+
+    let userChoice ='Rock';
+    let computerChoice = '';
+
+    let ran = Math.round(Math.random()*2);
+    if(ran==0){
+        computerChoice = 'Rock';
+        alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> TIE`);
+    }
+    else if(ran==1){
+        computerChoice= 'scissor';
+        alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> You win`);
+    }
+    else{
+        computerChoice ='paper';
+        alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> you loose`);
+    }
+    
+    ">Rock</button>
+
+
+
+
+    <button class="btn" onclick="
+
+     userChoice ='paper';
+     computerChoice = '';
+
+     ran = Math.round(Math.random()*2);
+    if(ran==0){
+        computerChoice = 'Rock';
+        alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> you win`);
+    }
+    else if(ran==1){
+        computerChoice= 'scissor';
+        alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> You loose`);
+    }
+    else{
+        computerChoice ='paper';
+        alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> TIE`);
+    }
+    
+    ">paper</button>
+
+
+
+
+
+    <button class="btn" onclick="
+
+    userChoice ='scissor';
+    computerChoice = '';
+
+    ran = Math.round(Math.random()*2);
+   if(ran==0){
+       computerChoice = 'Rock';
+       alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> you loose`);
+   }
+   else if(ran==1){
+       computerChoice= 'scissor';
+       alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> TIE`);
+   }
+   else{
+       computerChoice ='paper';
+       alert(`your choice ${userChoice} --> computer Choice ${computerChoice}---> YOu Won`);
+   }
+   
+   ">scissor</button>
 </body>
 </html>
